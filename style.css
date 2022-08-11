@@ -1,0 +1,15 @@
+h3{
+    font-size: 25;
+}
+.btn-success:hover{
+    color: red;
+}
+canvas{
+    animation-name: Fan;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes Fan{
+    from{box-shadow : 1px 1px 38px darkgreen;}
+    to{box-shadow : 1px 1px 38px yellow;}
+}
